@@ -129,7 +129,7 @@ td {
 }
 .link{
     color:#f6a81c;
-    text-decoration: none;
+    /*text-decoration: none;*/
     font-weight: 700;
 }
 .img{
