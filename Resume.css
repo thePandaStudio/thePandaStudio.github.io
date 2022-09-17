@@ -27,6 +27,11 @@ td {
     z-index: -1;
     background-color: #d1282e;
 }
+
+.gif{
+    display: none;
+}
+
 .video-box video{
     width: auto;
     height: 56.8vw;
@@ -187,6 +192,11 @@ table {
     }
     .box3{
         height: 98vh;
+    }
+    .gif{
+        display: block;
+        width: 100%;
+        height: auto;
     }
     .box4{
         height: 60vh;
