@@ -156,7 +156,7 @@ table {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 @media only screen and (max-width: 650px){
     .nav{
