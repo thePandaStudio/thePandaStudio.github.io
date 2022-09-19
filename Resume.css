@@ -54,9 +54,9 @@ td {
     top: 0;
     border-bottom: 1px solid #fff;
 }
-.nav .title,.footer .title{
-    width: 45px;
-    height: 45px;
+.nav  img,.footer  img{
+    width: 60px;
+    height: auto;
     margin-right: 20px;
 }
 .nav .list{
@@ -150,11 +150,13 @@ table {
 .footer{
     width: 100%;
     height: 100px;
+    box-sizing: border-box;
+    padding: 0 30vw;
     background-color: #282828;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 @media only screen and (max-width: 650px){
     .nav{
@@ -164,8 +166,12 @@ table {
         font-size: 15px;
         padding: 0 8px;
     }
-    .nav .title{
+    .nav  img,.footer  img{
         margin-right: 0;
+        width: 40px;
+    }
+    .footer  img{
+        margin-right: 5px;
     }
     .doc-title{
         font-size: 22px;
@@ -201,5 +207,14 @@ table {
         display: block;
         width: 100%;
         height: auto;
+    }
+    
+    .footer{
+        justify-content: space-around;
+        font-size: 15px;
+        padding: 0;
+    }
+    .footer .link{
+        font-size: 15px;
     }
 }
